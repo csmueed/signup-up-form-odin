@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: pink;
+}
+.container {
+    position: relative;
+}
+.image {
+    width: 35vw;
+    height: 100vh;
+}
+.background {
+    width: 35vw;
+    height: 15vh;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 37vh; left: 0vw;
+}
+.logo {
+    position: absolute;
+    top: 35vh; left: 5vw;
+    width: 10vw;
+    /* border: 3px solid red; */
+}
+.odinText {
+    position: absolute;
+    top: 41vh; left: 17vw;
+    font-size: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 10vw;
+    /* border: 3px solid rgb(38, 0, 255); */
+}
