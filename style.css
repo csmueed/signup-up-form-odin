@@ -34,3 +34,64 @@ body {
     width: 10vw;
     /* border: 3px solid rgb(38, 0, 255); */
 }
+
+.TextOne {
+    position: absolute;
+    top: 3rem;
+    right: 0;
+    width: 60vw;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.TextTwo {
+    position: absolute;
+    top: 15rem;
+    right: 0;
+    width: 60vw;
+    font-size: 1.8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.TextThree {
+    position: absolute;
+    top: 20rem;
+    right: 0;
+    width: 60vw;
+    font-size: 1.7rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+label, input {
+    display: block;
+}
+.new {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    position: absolute;
+    top: 70vh;
+    right: 0;
+    width: 60vw;
+    justify-content: center;
+    align-items: center;
+    /* border: 5px solid red; */
+}
+.formOne, .formTwo, .formThree {
+    display: flex;
+    gap: 50px;
+    justify-content: space-evenly;
+}
+.field {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+}
+.Button {
+   width: 150px;
+   height: 30px;
+   border-radius: 12px;
+
+}
+.login {
+    color: blue;
+}
+
+
